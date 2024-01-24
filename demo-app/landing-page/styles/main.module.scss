@@ -1,0 +1,83 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  .leftSide {
+    padding: 20px 20px;
+    width: 50%;
+
+    .prepareProcess {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .prepareTime,
+      .prepareBake,
+      .prepareTotal {
+        margin: 20px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .prepareText {
+          font-weight: bold;
+          font-size: 20px;
+          margin-left: 5px;
+          width: 100%;
+        }
+      }
+    }
+
+    .yieldProcess {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+
+      .yieldDuration,
+      .yieldAction {
+        margin: 20px 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .prepareText {
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+        width: 100%;
+      }
+    }
+
+    .yieldAction {
+      :hover {
+        cursor: pointer;
+        background: antiquewhite;
+      }
+      .yieldSave,
+      .yieldPrint {
+        padding: 10px 10px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
+      }
+    }
+  }
+  .rightSide {
+    padding: 20px 20px;
+    width: 50%;
+    align-self: baseline;
+    margin-top: 40px;
+  }
+}
